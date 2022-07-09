@@ -12,9 +12,9 @@ type Element struct {
 }
 
 func NewCache() Cache {
-	items_map := make(map[string]Element)
+	itemsMap := make(map[string]Element)
 	c := Cache{
-		items: items_map,
+		items: itemsMap,
 	}
 	return c
 }
