@@ -1,5 +1,7 @@
 package cache
 
+import "time"
+
 type Cache struct {
 	items map[string]Element
 }
@@ -35,5 +37,5 @@ func (c Cache) Keys() []string {
 	return outputKeys
 }
 
-//func (receiver) PutTill(key, value string, deadline time.Time) {
-//}
+func (receiver) PutTill(key, value string, deadline time.Time) {
+}
